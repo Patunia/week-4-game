@@ -1,0 +1,77 @@
+#crystal1,
+#crystal2,
+#crystal3,
+#crystal4 {
+	width: 220px;
+	height: 275px;
+}
+
+body {
+	font-family: 'Dosis', cursive;
+	background: white;
+	color:royalblue
+	margin: 70px;
+	text-align: center;
+	cursor: cell;
+}
+
+#crystals {
+    margin: 20px;
+}
+
+p {
+	color: mediumslateblue;
+	font-size: 20px;
+	line-height: .9;
+}
+
+h1 {
+	font-size: 70px;
+	letter-spacing: 10px;
+    color: royalblue;
+    font-family: 'UnifrakturCook', cursive;
+    padding-top: 10px;
+}
+
+h2 {
+	font-family: 'Dosis', cursive;
+	font-size: 30px;
+	color: royalblue;
+}
+
+h3 {
+	font-family: 'Dosis', cursive;
+	font-size: 25px;
+	color:royalblue;
+}
+
+#targetNumber,
+#yourNumber,
+#wins,
+#losses {
+	margin-top: -15px;
+}
+
+#top,
+#bottom,
+#left,
+#right {
+	background: royalblue;
+	position: fixed;
+}
+
+#left,
+#right {
+	top: 0; bottom: 0;
+	width: 30px;
+}
+	#left { left: 0; }
+	#right { right: 0; }
+
+#top,
+#bottom {
+	left: 0; right: 0;
+	height: 30px;
+}
+	#top { top: 0; }
+	#bottom { bottom: 0; }
